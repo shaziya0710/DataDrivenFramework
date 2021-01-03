@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-01-03T04:16:17Z" name="Default suite" finished-at="2021-01-03T04:17:02Z" duration-ms="44302">
+    <groups>
+    </groups>
+    <test started-at="2021-01-03T04:16:17Z" name="Default test" finished-at="2021-01-03T04:17:02Z" duration-ms="44302">
+      <class name="org.training.tests.TC_Demo_001_ValidateLoginFeature">
+        <test-method is-config="true" signature="initiateDriverInstance()[pri:0, instance:org.training.tests.TC_Demo_001_ValidateLoginFeature@6e75aa0d]" started-at="2021-01-03T04:16:20Z" name="initiateDriverInstance" finished-at="2021-01-03T04:16:35Z" duration-ms="14845" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateDriverInstance -->
+        <test-method signature="checklogin(java.lang.String, java.lang.String)[pri:0, instance:org.training.tests.TC_Demo_001_ValidateLoginFeature@6e75aa0d]" started-at="2021-01-03T04:16:35Z" name="checklogin" data-provider="Excel" finished-at="2021-01-03T04:16:42Z" duration-ms="6732" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rekhabr1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[rekhab]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checklogin -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:org.training.tests.TC_Demo_001_ValidateLoginFeature@6e75aa0d]" started-at="2021-01-03T04:16:42Z" name="closeBrowser" finished-at="2021-01-03T04:16:44Z" duration-ms="1944" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="initiateDriverInstance()[pri:0, instance:org.training.tests.TC_Demo_001_ValidateLoginFeature@6e75aa0d]" started-at="2021-01-03T04:16:44Z" name="initiateDriverInstance" finished-at="2021-01-03T04:16:53Z" duration-ms="9750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateDriverInstance -->
+        <test-method signature="checklogin(java.lang.String, java.lang.String)[pri:0, instance:org.training.tests.TC_Demo_001_ValidateLoginFeature@6e75aa0d]" started-at="2021-01-03T04:16:53Z" name="checklogin" data-provider="Excel" finished-at="2021-01-03T04:17:00Z" duration-ms="6477" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rekhabr3@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[rekhab]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checklogin -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:org.training.tests.TC_Demo_001_ValidateLoginFeature@6e75aa0d]" started-at="2021-01-03T04:17:00Z" name="closeBrowser" finished-at="2021-01-03T04:17:02Z" duration-ms="1916" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- org.training.tests.TC_Demo_001_ValidateLoginFeature -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
